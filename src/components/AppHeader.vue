@@ -6,7 +6,9 @@ export default {
 
 <template lang="">
     <div>
-        <a href="/" class="Logo"></a>
+        <a href="/" class="Logo">
+            <img src="../assets/img/dc-logo.png" alt="">
+        </a>
     </div>
 </template>
 
