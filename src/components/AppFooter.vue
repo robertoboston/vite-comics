@@ -29,6 +29,27 @@ export default {
         </div>
         </div>
     </div>
+    <footer>
+        <div class="background-image-footer">
+            <div class="container">
+                <nav>
+                    <h2>Dc comics</h2>
+                    <ul>
+                        <li>Characters</li>
+                        <li>Comics</li>
+                        <li>Moovies</li>
+                        <li>Tv</li>
+                        <li>Games</li>
+                        <li>Videos</li>
+                        <li>News</li>
+                    </ul>
+                </nav>
+             
+
+
+            </div>
+        </div>
+    </footer>
 </template>
 
 <style lang="scss">
@@ -63,6 +84,22 @@ export default {
         padding: 15px;
     }
 
+}
+
+.background-image-footer{
+    background-image: url(../assets/img/footer-bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include flex-centered;
+
+    .container{
+        height: 500px;
+        width: 100%;
+    }
+
+ 
+    
 }
     
 </style>
