@@ -1,10 +1,17 @@
 @mixin flex-centered {
     display: flex;
     justify-content: center;
+
 }
 
 @mixin flex-between{
     display: flex;
     justify-content: space-between;
+
+}
+
+@mixin blue-sets{
+    height: 200px;
+    background-color: blue;
     
 }
