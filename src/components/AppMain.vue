@@ -64,7 +64,6 @@ export default {
 .comics-container{
     width: 100%;
     @include flex-v-center;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 5rem
 }
