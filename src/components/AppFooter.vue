@@ -32,8 +32,9 @@ export default {
     <footer>
         <div class="background-image-footer">
             <div class="container">
-                <nav>
-                    <h2>Dc comics</h2>
+                <nav class="navigation">
+                    <div class="content">
+                        <h2>Dc comics</h2>
                     <ul>
                         <li>Characters</li>
                         <li>Comics</li>
@@ -43,10 +44,43 @@ export default {
                         <li>Videos</li>
                         <li>News</li>
                     </ul>
+                     <div class="Shop">
+                        <h2>Shop</h2>
+                      <ul>
+                        <li>Shop Dc</li>
+                        <li>Shop Dc Collectibles</li>
+                      </ul>
+                     </div>
+                    </div>
+
+                    <div class="content">
+                        <h2>Dc</h2>
+                    <ul>
+                        <li>Terms of use</li>
+                        <li>Privacy</li>
+                        <li>Ad Choise</li>
+                        <li>Advertising</li>
+                        <li>Jobs</li>
+                        <li>Subscription</li>
+                        <li>Talent Workshops</li>
+                        <li>CPSC Certificates</li>
+                        <li>Ratings</li>
+                        <li>Talent Workshops</li>
+                        <li>Shop Help</li>
+                        <li>Contact Us</li>
+                    </ul>
+                    </div>
+                    <div class="content">
+                        <h2>Sites</h2>
+                    <ul>
+                        <li>DC</li>
+                        <li>MAD Magazine</li>
+                        <li>DC Kids</li>
+                        <li>DC Universe</li>
+                        <li>DC Power Visa</li>
+                    </ul>
+                    </div>
                 </nav>
-             
-
-
             </div>
         </div>
     </footer>
@@ -95,9 +129,34 @@ export default {
 
     .container{
         height: 500px;
-        width: 100%;
+        width: 1400px;
+        padding: 50px;
     }
 
+    .navigation{
+        display: flex;
+    }
+
+    .content{
+        margin-right: 90px
+    }
+
+   h2, ul{
+    color: white;
+
+   }
+
+   ul{
+    list-style: none;
+   }
+
+   li{
+    padding: 5px 0;
+   }
+
+   .Shop{
+    margin-top: 10px;
+   }
  
     
 }
